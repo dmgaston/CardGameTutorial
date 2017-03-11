@@ -26,6 +26,8 @@ public class Main {
 			System.out.println("");
 					
 			/*Then read in their bet with the scanner using the nextInt method*/
+			/*Make sure the bet isn't higher than the player's bank! If it is, you'll have to keep asking for input until
+			it's <= the player's bank (Hint: add another while loop)*/
 			int bet = ;
 			
 			
@@ -39,6 +41,10 @@ public class Main {
 			/*Once you get the basic functionality, try adding some error handling to check that the user has typed and int
 			if the user has typed a string, the program should prompt the user for input again. Another thing to add could be to
 			offer the user the option of typing q to quit, then quitting if a q is inputted*/
+			
+			/*You can add code to prompt the player if they want a new game once the current game is finished. If they answer
+			yes, shuffle the deck and reset the player's bank (you can do this manually, or add a reset() method to the player class if you
+			like*/
 			
 		}
 		
