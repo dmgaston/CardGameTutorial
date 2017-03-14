@@ -35,6 +35,7 @@ public class Deck {
 		a randomly generated index*/
 		Random rand = new Random();
 		/*loop starts here*/
+		
 		int swapIndex = rand.nextInt(51) + 1;
 		
 		/*end loop*/
@@ -44,10 +45,7 @@ public class Deck {
 	}
 	public Card deal(){
 		
-		/*return the card at the current dealIndex, then increment
-		dealIndex. Make sure to call the isEmpty method to make sure
-		there are cards to deal*/
-		
+		/*return the card at the current dealIndex, then increment*/
 		return ; /*deck at index dealIndex*/
 	}
 	public boolean isEmpty(){

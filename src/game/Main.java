@@ -32,7 +32,7 @@ public class Main {
 			
 			
 			
-			if(/*Second card is between the first and third*/){
+			if(/*Second card is between the first and third ie first<second>third OR first>second<third*/){
 				/*Player wins the bet money*/
 			}else{
 				/*player loses the bet money*/
