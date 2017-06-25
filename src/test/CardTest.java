@@ -5,14 +5,15 @@ import game.Card;
 import org.junit.jupiter.api.Test;
 
 public class CardTest {
+    public Card card = new Card("heart",6);
     @Test
-    public void createTest(){
-        Card card = new Card("heart",6);
+    public void initTest(){
+
         assertNotNull(card);
     }
     @Test
     public void stringTest(){
-        Card card = new Card("heart",6);
+
         String cardString = card.getCardAsString();
         assertEquals(cardString,"H6");
     }
