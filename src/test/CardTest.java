@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class CardTest {
     public Card card = new Card("heart",6);
     @Test
-    public void initTest(){
+    public void initializeTest(){
 
         assertNotNull(card);
     }
