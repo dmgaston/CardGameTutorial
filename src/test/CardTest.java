@@ -10,4 +10,10 @@ public class CardTest {
         Card card = new Card("heart",6);
         assertNotNull(card);
     }
+    @Test
+    public void stringTest(){
+        Card card = new Card("heart",6);
+        String cardString = card.getCardAsString();
+        assertEquals(cardString,"H6");
+    }
 }
